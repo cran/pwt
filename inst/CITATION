@@ -1,0 +1,40 @@
+citHeader("When using pwt in publications, please cite both the pwt package and the Penn World Table itself:")
+
+meta <- packageDescription("pwt")
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+citEntry(entry = "Manual",
+         title = "pwt: Penn World Table",
+         author = personList(as.person("Achim Zeileis"),
+			     as.person("Guan Yang")),
+         year         = year,
+         note         = note,
+	 url          = "http://CRAN.R-project.org/",
+
+         textVersion = 
+         paste("Achim Zeileis and Guan Yang",
+               sprintf("(%s).", year),
+               "pwt: Penn World Table.",
+	       paste(note, ".", sep = ""),
+	       "URL http://CRAN.R-project.org/."),
+	 header = "To cite pwt, the R package, please use:"
+)
+
+citEntry(entry = "Manual",
+         title = "Penn World Table Version 6.2",
+         author = personList(as.person("Alan Heston"),
+	                     as.person("Robert Summers"), 
+	                     as.person("Bettina Aten")),
+         year         = "2006",
+	 month        = "September",
+	 organization = "Center for International Comparisons of Production, Income and Prices at the University of Pennsylvania",
+         url          = "http://pwt.econ.upenn.edu/",
+         
+         textVersion = 
+         paste("Alan Heston, Robert Summers and Bettina Aten (2006).", 
+               "Penn World Table Version 6.2.",
+               "Center for International Comparisons of Production, Income and Prices at the University of Pennsylvania",
+               "URL http://pwt.econ.upenn.edu/."),
+	 header = "To cite the Penn World Table (version 6.2), please use:"
+)
