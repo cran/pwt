@@ -1,6 +1,6 @@
 citHeader("When using pwt in publications, please cite both the pwt package and the Penn World Table itself:")
 
-meta <- packageDescription("pwt")
+if(!exists("meta") || is.null(meta)) meta <- packageDescription("pwt")
 year <- sub("-.*", "", meta$Date)
 note <- sprintf("R package version %s", meta$Version)
 
@@ -10,14 +10,14 @@ citEntry(entry = "Manual",
 			     as.person("Guan Yang")),
          year         = year,
          note         = note,
-	 url          = "http://CRAN.R-project.org/",
+	 url          = "http://CRAN.R-project.org/package=pwt",
 
          textVersion = 
          paste("Achim Zeileis and Guan Yang",
                sprintf("(%s).", year),
                "pwt: Penn World Table.",
 	       paste(note, ".", sep = ""),
-	       "URL http://CRAN.R-project.org/."),
+	       "URL http://CRAN.R-project.org/package=pwt."),
 	 header = "To cite pwt, the R package, please use:"
 )
 
