@@ -3,7 +3,7 @@
 \title{Penn World Table 6.2}
 
 \description{Purchasing power parity and national income accounts
-  in international prices for 188 countries over 1950--2004.}
+  in international prices for 188 countries over 1950--2004 (2000 as base year).}
 
 \usage{data("pwt6.2")}
 

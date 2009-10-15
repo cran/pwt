@@ -22,19 +22,19 @@ citEntry(entry = "Manual",
 )
 
 citEntry(entry = "Manual",
-         title = "Penn World Table Version 6.2",
+         title = "Penn World Table Version 6.3",
          author = personList(as.person("Alan Heston"),
 	                     as.person("Robert Summers"), 
 	                     as.person("Bettina Aten")),
-         year         = "2006",
-	 month        = "September",
+         year         = "2009",
+	 month        = "August",
 	 organization = "Center for International Comparisons of Production, Income and Prices at the University of Pennsylvania",
          url          = "http://pwt.econ.upenn.edu/",
          
          textVersion = 
-         paste("Alan Heston, Robert Summers and Bettina Aten (2006).", 
-               "Penn World Table Version 6.2.",
+         paste("Alan Heston, Robert Summers and Bettina Aten (2009).", 
+               "Penn World Table Version 6.3.",
                "Center for International Comparisons of Production, Income and Prices at the University of Pennsylvania",
                "URL http://pwt.econ.upenn.edu/."),
-	 header = "To cite the Penn World Table (version 6.2), please use:"
+	 header = "To cite the Penn World Table (version 6.3), please use:"
 )
