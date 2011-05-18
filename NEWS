@@ -1,3 +1,8 @@
+Changes in Version 7.0-0
+
+  o Added pwt7.0 data for PWT 7.0 released May 2011.
+
+
 Changes in Version 6.3-1
 
   o Use improved compression for data files.
