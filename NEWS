@@ -1,3 +1,8 @@
+Changes in Version 7.0-1
+
+  o Added empty NAMESPACE for R 2.14.0.
+
+
 Changes in Version 7.0-0
 
   o Added pwt7.0 data for PWT 7.0 released May 2011.

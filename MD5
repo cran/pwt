@@ -1,0 +1,15 @@
+3403f7920cdb85f22ea2f295e7cf9aed *DESCRIPTION
+d41d8cd98f00b204e9800998ecf8427e *NAMESPACE
+ad4079ecd36ee20ce28a720b88395a44 *NEWS
+0c242df8054a5c07eaca5dac7e17e524 *data/datalist
+f87ce6632acb2c0cbeb748b54e0c05ed *data/pwt5.6.rda
+fc9647e58411794bfaa25b5d40ed8113 *data/pwt6.1.rda
+5dfc60d1aa7e15bb2002799e326bb79b *data/pwt6.2.rda
+b56aa8309692f9f709edb4211380b225 *data/pwt6.3.rda
+ceed049f9e404b161116e9687260cf75 *data/pwt7.0.rda
+6bc41b7c0936e3f77a075b1e084f3c8a *inst/CITATION
+d4f2d6a9593d0953e1e9bda82df0fb34 *man/pwt5.6.Rd
+a2cd5198d5a3d52d282a4b393d579359 *man/pwt6.1.Rd
+523da441f0c0a9b802514dd45453cb5d *man/pwt6.2.Rd
+21524411ac32512988ea659282160ea9 *man/pwt6.3.Rd
+0cc772e1d4a6f1e88bf96e824b501a25 *man/pwt7.0.Rd
