@@ -1,13 +1,13 @@
-\name{pwt7.0}
-\alias{pwt7.0}
-\title{Penn World Table 7.0}
+\name{pwt7.1}
+\alias{pwt7.1}
+\title{Penn World Table 7.1}
 
 \description{Purchasing power parity and national income accounts
-  in international prices for 189 countries over 1950--2009 (2005 as base year).}
+  in international prices for 189 countries over 1950--2010 (2005 as base year).}
 
-\usage{data("pwt7.0")}
+\usage{data("pwt7.1")}
 
-\format{A data frame with 11,400 observations of 41 variables.
+\format{A data frame with 11,590 observations of 33 variables.
   \describe{
     \item{country}{factor with country name.}
     \item{isocode}{factor with ISO 3166-1 alpha-3 country code.}
@@ -29,7 +29,6 @@
     \item{pg}{price level of government consumption (PPP over government consumption/\code{xrat}).}
     \item{pi}{price level of investment (PPP over investment/\code{xrat}).}
     \item{openc}{openness at current prices (\%).}
-    \item{cgnp}{ratio of GNP to GDP (\%).}
     \item{y}{PPP converted GDP per capita relative to the United States, G-K method, at current prices, (\code{cgdp}), (US=100).}
     \item{y2}{PPP converted GDP per capita relative to the United States, average GEKS-CPDW, at current prices, (\code{cgdp2}), (US=100).}
     \item{rgdpl}{PPP converted GDP per capita (Laspeyres), derived from growth rates of c, g, i, at 2005 constant prices
@@ -48,30 +47,20 @@
       (2005 International dollar per worker).}
     \item{rgdpl2wok}{PPP converted GDP Laspeyres per worker at 2005 constant prices
       (2005 International dollar per worker).}
-    \item{rgdpl2pe}{PPP converted GDP Laspeyres person engaged at 2005 constant prices
-      (2005 International dollar per person engaged).}
-    \item{rgdpl2te}{PPP converted GDP Laspeyres per person counted in total employment at 2005 constant prices
-      (2005 International dollar per person counted in total employment).}
-    \item{rgdpl2th}{PPP converted GDP Laspeyres per hour worked by employees at 2005 constant prices
-      (2005 International dollar per hour).}
     \item{rgdptt}{PPP converted Gross domestic income (RGDPL adjusted for Terms of Trade changes) at 2005 constant prices
       (2005 International dollar per person).}
-    \item{grgdpch}{growth rate of PPP converted GDP chain per capita (\code{rgdpch}), (\%).}
-    \item{grgdpl2}{growth rate of PPP converted GDP Laspeyres2 per capita (rgdpl2), (\%).}
-    \item{grtgdp}{growth rate of total PPP converted GDP Laspeyres2, (\%).}
-    \item{grda}{growth rate of per capita PPP converted domestic absorption, (\%).}
   }
 }
 
 \details{
   The Penn World Table provides purchasing power parity and
   national income accounts converted to international prices for 189
-  countries/territories for some or all of the years 1950--2009. The European Union
+  countries/territories for some or all of the years 1950--2010. The European Union
   or the OECD provide more detailed purchasing power and real product
   estimates for their countries and the World Bank makes current price
   estimates for most PWT countries at the GDP level.
 
-  This version contains data from PWT version 7.0. As far as possible the
+  This version contains data from PWT version 7.1. As far as possible the
   original data from PWT has been preserved. For example, percentages
   have been maintained rather than converted to fractions.
 
@@ -80,9 +69,9 @@
 }
 
 \source{
-  Alan Heston, Robert Summers and Bettina Aten, Penn World Table Version 7.0,
+  Alan Heston, Robert Summers and Bettina Aten, Penn World Table Version 7.1,
   Center for International Comparisons of Production, Income and Prices at the
-  University of Pennsylvania, May 2011. URL \url{http://pwt.econ.upenn.edu/}.
+  University of Pennsylvania, July 2012. URL \url{http://pwt.econ.upenn.edu/}.
 }
 
 \keyword{datasets}
